@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compare Numbers</title>
+</head>
+<body>
+  <script>
+    const firstNumber = parseInt(prompt("Enter the first integer:"));
+    const secondNumber = parseInt(prompt("Enter the second integer:"));
+    if (isNaN(firstNumber) || isNaN(secondNumber)) 
+    {
+      document.write("<h1>Please enter valid integers</h1>");
+    } else if (firstNumber > secondNumber) {
+      document.write("<h1>The first number is greater than the second number</h1>");
+    } else if (firstNumber < secondNumber) {
+      document.write("<h1>The second number is greater than the first number</h1>");
+    } else {
+      document.write("<h1>The two numbers are equal</h1>");
+    }
+  </script>
+</body>
+</html>

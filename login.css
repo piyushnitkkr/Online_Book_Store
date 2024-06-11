@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.heading {
+    height: 150px;
+    width: 418px;  
+}
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#heading {
+    color: rgba(80, 73, 73, 0.989);
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+#para {
+    color: rgba(80, 73, 73, 0.989);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 231, 231);
+    width: 350px;
+}
+.detail {
+    width: 300px;
+    height: 40px;
+}
+.signin {
+    width: 300px;
+    height: 40px;
+    background-color: #0c00ffcc;
+    border: 1px solid #0c00ffcc;
+    font-style: bold;
+    color: white;
+}
+.detail:hover {
+    border: 2px solid #0c00ffcc;;
+}
+#staySigned {
+    color: rgba(80, 73, 73, 0.989);
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 65px;
+    font-size: 15px;
+}
+.check {
+    display: flex;
+}
+#help {
+    color: #0c00ffcc;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 42px;
+    font-size: 15px;
+}
+#icon {
+    height: 250px;
+    width: 250px;
+    align-self: center;
+    border-radius: 150px;
+}
+#help:hover {
+    text-decoration: underline;
+}
+#abc {
+    color: rgba(80, 73, 73, 0.989);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+#Create {
+    color: #0c00ffcc;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+#Create:hover {
+    text-decoration: underline;
+}
+.image {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+.icon {
+    display: flex;
+}

@@ -1,0 +1,122 @@
+  .navbar{
+    display: flex;
+    align-items: center;
+  }
+ .content{
+    margin-right: 2vw;
+    font-size: 2.2vw;
+    display: inline;
+  }
+  .content:hover {
+    font-weight: bolder;
+    color: rgb(56, 241, 179);
+    cursor:pointer;
+  }
+  *{
+    margin: 0%;
+    padding: 0%;
+  }
+  header {
+    
+    padding: 10px;
+    background-color: black;
+    color: azure;
+    height: 8vh;
+    position: sticky;
+    top: 0%;
+    align-items: center;
+  }
+  .navlogo{
+    height: 2.5vh;
+    width: 4vw;
+    margin-right: 3vw;
+    padding-bottom: 15px;
+    margin-bottom: 1vh;
+    margin-bottom: 4vh;
+    
+  }
+  .logo{
+    height: 8vh;
+    width: 3.7vw;
+    border-radius: 50%;
+    background-image: url("https://www.freeiconspng.com/thumbs/bookstore-icon/book-store-icon-31.png");
+    background-size: cover;
+  }
+  .cart{
+    height: 2.5vh;
+    width: 2vw;
+    padding-bottom: 15px;
+    margin-bottom: 1vh;
+    margin-bottom: 4vh;
+  }
+  .cartlogo{
+    height: 8vh;
+    width: 3vw;
+    background-image: url("https://www.clker.com/cliparts/l/z/3/L/h/3/white-shopping-cart-hi.png");
+    background-size: cover;
+    margin-left: 7vw;
+  }
+  .cartlogo:hover{
+    height: 9vh;
+    width: 3.5vw;
+  }
+  .layer{
+    background-image: url("https://about.proquest.com/globalassets/proquest/media/images/decrotive/oldbooks.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+  }
+  .searchbar{
+    border-radius: 3px;
+  }
+  .searchbar{
+    margin-left: 15vw;
+    display: flex;
+  }
+  .container{
+    background-color: rgba(14, 169, 115, 0.4);
+    height: 61vh;
+    width: 20vw;
+    background-size: cover;
+    float: left;
+    border-radius: 15px;
+    margin-top: 15vh;
+    margin-left: 5vw;
+    position: fixed;
+    padding: 8px;
+  }
+  .text{
+    display: flex;
+    font-size: 30px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+  }
+  footer {    
+    text-align: center;
+    padding-top: 10px;
+    background-color: #333;
+    color: #fff;
+}
+.animation{
+  height: 80vh;
+  width: 50vw;
+  background-size: cover;
+  display: flex;
+  float: right;
+  border-radius: 15px;
+  margin-top: 100px;
+  margin-right: 50px;
+  padding: 8px; 
+}
+@keyframes transmissionDelay {
+  0% { opacity: 0; transform: translateY(-60px); }
+  50% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(80px); }
+}
+.transmission-text {
+  animation: transmissionDelay 8s infinite;
+  font-size: 45px;
+  color: #028502;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: 10px 10px 10px black;
+}
