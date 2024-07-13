@@ -79,3 +79,7 @@ Adds a customized cursor to enhance the user experience.
 
 #### How it’s made:
 - **CSS**: Sets a custom cursor using the `cursor` property.
+
+- ## License
+
+This project is licensed under the MIT License. See the (LICENSE) file for details.
